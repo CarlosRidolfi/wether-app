@@ -1,0 +1,43 @@
+@font-face {
+  font-family: HelveticaBold;
+  src: url('../src/fonts/Helvetica-Bold.ttf');
+}
+
+@font-face {
+  font-family: Helvetica;
+  src: url('../src/fonts/Helvetica.ttf');
+}
+
+
+.App{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#states{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+
+  @media screen and(max-width: 968px){
+    margin-top: 20px;
+  }
+}
+
+.morning{
+  background: #4E7AC7;
+}
+
+.evening{
+  background: #35478C;
+}
+
+.night{
+  background: #16193B;
+}
